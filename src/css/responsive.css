@@ -1,0 +1,35 @@
+@media(max-width: 750px){
+    body{
+        font-size: 12px;
+    }
+    .pokedex {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .pokedex .pokemon-card {
+        margin: 0 auto;
+    }
+
+    .pokemon-card {
+        max-width: 300px;
+    }
+
+    .pokemon-card .card-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .pokedex .listagem {
+        max-width: 100%;
+        
+    }
+
+    .pokedex .listagem ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        max-width: 50%;
+    }
+
+}

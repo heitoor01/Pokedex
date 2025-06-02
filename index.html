@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/card.css">
+    <link rel="stylesheet" href="src/css/list.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
 </head>
 <body>
     <div class="pokedex">
         <div class="pokemon-cards">
             <!--Pikachu-->
-            <div class="pokemon-card">
+            <div class="pokemon-card electric-type open" id="pikachu-card">
                 <div class="card-top">
                     <div class="details">
                         <h2 class="name">Pikachu</h2>
@@ -44,7 +46,7 @@
                 </div>
             </div>
             <!--Bulbassauro-->
-            <div class="pokemon-card">
+            <div class="pokemon-card grass-type" id="bulbasaur-card">
                 <div class="card-top">
                     <div class="details">
                         <h2 class="name">Bulbassauro</h2>
@@ -76,7 +78,7 @@
                 </div>
             </div>
             <!--Charmander-->
-            <div class="pokemon-card">
+            <div class="pokemon-card fire-type" id="charmander-card">
                 <div class="card-top">
                     <div class="details">
                         <h2 class="name">Charmander</h2>
@@ -108,7 +110,7 @@
                 </div>
             </div>
             <!--Squirtle-->
-            <div class="pokemon-card">
+            <div class="pokemon-card water-type" id="squirtle-card">
                 <div class="card-top">
                     <div class="details">
                         <h2 class="name">Squirtle</h2>
@@ -140,7 +142,7 @@
                 </div>
             </div>
             <!--Gengar-->
-            <div class="pokemon-card">
+            <div class="pokemon-card ghost-type" id="gengar-card">
                 <div class="card-top">
                     <div class="details">
                         <h2 class="name">Gengar</h2>
@@ -172,7 +174,7 @@
                 </div>
             </div>
             <!--Dragonite-->
-            <div class="pokemon-card">
+            <div class="pokemon-card dragon-type" id="dragonite-card">
                 <div class="card-top">
                     <div class="details">
                         <h2 class="name">Dragonite</h2>
@@ -204,7 +206,7 @@
                 </div>
             </div>
             <!--Gyarados-->
-            <div class="pokemon-card">
+            <div class="pokemon-card water-type" id="gyarados-card">
                 <div class="card-top">
                     <div class="details">
                         <h2 class="name">Gyarados</h2>
@@ -238,29 +240,37 @@
         </div>
         <nav class="listagem">
             <ul>
-                <li class="pokemon" id="pikachu">
+                <li class="pokemon ativo" id="pikachu">
                     <img src="src/images/cabeca-pikachu.png" alt="pikachu">
+                    Pikachu
                 </li>
                 <li class="pokemon" id="bulbasaur">
                     <img src="src/images/cabeca-bulbasaur.png" alt="bulbasaur">
+                    Bulbassauro
                 </li>
                 <li class="pokemon" id="charmander">
                     <img src="src/images/cabeca-charmander.png" alt="charmander">
+                    Charmander
                 </li>
                 <li class="pokemon" id="squirtle">
                     <img src="src/images/cabeca-squirtle.png" alt="squirtle">
+                    Squirtle
                 </li>
                 <li class="pokemon" id="gengar">
                     <img src="src/images/cabeca-gengar.png" alt="gengar">
+                    Gengar
                 </li>
                 <li class="pokemon" id="dragonite">
                     <img src="src/images/cabeca-dragonite.png" alt="dragonite">
+                    Dragonite
                 </li>
                 <li class="pokemon" id="gyarados">
                     <img src="src/images/cabeca-gyarados.png" alt="gyarados">
+                    Gyarados
                 </li>
             </ul>
         </nav>
     </div>
 </body>
+<script src="src/js/script.js"></script>
 </html>
