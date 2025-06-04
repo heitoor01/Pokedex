@@ -51,7 +51,8 @@
     border-bottom: 1px solid #6b727a;
 }
 
-.pokemon-card .card-info .ability .status {
+.pokemon-card .card-info .status,
+.pokemon-card .card-info .ability {
     padding: 0px;
     width: 180px;
 }
