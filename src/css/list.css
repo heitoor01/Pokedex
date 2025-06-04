@@ -12,7 +12,7 @@
     padding: 0 5px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    transition: 0.15 ease-in-out;
+    transition: transform 0.15 ease-in-out;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     cursor: pointer;
     min-height: 70px;
